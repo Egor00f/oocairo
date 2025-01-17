@@ -1,0 +1,40 @@
+{
+    "editor.formatOnSave": false,
+    
+    "cSpell.words": [
+        "OOCAIRO",
+        "lua_pushstring",
+        "lua_pushnumber",
+        "lua_pushinteger",
+        "lua_pushnil",
+        "lua_pushboolean",
+        "luaL_pushfail",
+        "luaL_checknumber",
+        "luaL_checkinteger",
+        "luaL_checkstring",
+        "luaL_checktype",
+        "luaL_checkudata",
+        "luaL_argcheck",
+        "luaL_newlib",
+        "luaL_getmetatable",
+        "lua_createtable",
+        "lua_setfield",
+        "lua_getfield",
+        "lua_settop",
+        "lua_isuserdata",
+        "lua_setmetatable",
+        "lua_newuserdata",
+        "lua_rawseti",
+        "lua_isnoneornil",
+        "lua_pushvalue",
+        "LUA_TTABLE",
+        "LUALIB_API",
+        "luaopen_"
+    ],
+    "files.associations": {
+        "cairo-pdf.h": "c",
+        "cairo-image-surface-inline.h": "c",
+        "cairo.h": "c",
+        "cairo-features.h": "c"
+    }
+}

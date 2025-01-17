@@ -1,0 +1,41 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Build oocairo.dll",
+			"detail": "Build shared library",
+			"command": "-C ${workspaceFolder} oocairo.dll",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"options": {
+				"shell": {
+					"executable": "make"
+				}
+			}
+		},
+		{
+			"type": "shell",
+			"label": "Clean",
+			"detail": "cleacn all",
+			"command": "-C ${workspaceFolder} clean",
+			"problemMatcher": [
+				"$gcc"
+			],
+			"group": {
+				"kind": "build",
+				"isDefault": true
+			},
+			"options": {
+				"shell": {
+					"executable": "make"
+				}
+			}
+		}
+	]
+}

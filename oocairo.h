@@ -37,6 +37,8 @@
 #define OOCAIRO_MT_NAME_SURFACE    ("6d31a064-6711-11dd-bdd8-00e081225ce5")
 #define OOCAIRO_MT_NAME_REGION     ("047833B0-11e0-11dd-a561-00e081225ce5")
 
+#define VERSION "1.5"
+
 int luaopen_oocairo (lua_State *L);
 
 int oocairo_pattern_push (lua_State *L, cairo_pattern_t *pattern);
