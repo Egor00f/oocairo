@@ -1,3 +1,7 @@
+# oocairo for KolibriOS
+
+This is port of oocairo for KolibriOS.
+
 Lua-OOCairo provides Lua with full access to the Cairo vector graphics API.
 It can be used for drawing onto bitmap images and saving the resulting files
 in PNG format, or for generating files in vector formats like SVG and PDF.
@@ -73,6 +77,9 @@ should be enough to use the module.
 
 Running tests
 ---------------
+
+move `lunit.lua` and `test-setup.lua` to `/kolibrios/share/lua/5.4`.
+move `oocairo.dll` to `/kolibrios/lib/lua`
 
 The module comes with a test suite in the 'test' directory, which at least
 on Linux systems can be run with 'make check'.  If there are any problems
